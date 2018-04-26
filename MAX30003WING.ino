@@ -1,9 +1,11 @@
 #include "MAX30003.h"
 #include <SPI.h>
 
-//SPIClass mySPI (&PERIPH_SPI,  PIN_SPI_MISO,  PIN_SPI_SCK,  PIN_SPI_MOSI,  PAD_SPI_TX,  PAD_SPI_RX);
+SPIClass mySPI (&PERIPH_SPI,  PIN_SPI_MISO,  PIN_SPI_SCK,  PIN_SPI_MOSI,  PAD_SPI_TX,  PAD_SPI_RX);
 
-
+#define BIT12 0x800
+#define BIT13 0x1000
+#define LED_PIN 13
 const byte READ = 0b11111110;     // SCP1000's read command
 const byte WRITE = 0b00000001;   // SCP1000's write command
 const int chipSelectPin = 9;
@@ -76,15 +78,29 @@ void writeRegister(byte thisRegister, byte thisValue) {
   // take the chip select high to de-select:
   digitalWrite(chipSelectPin, HIGH);
 }
+unsigned int res = 0;
 
 void setup() {
+  // initialize digital pin 13 as an output.
+  pinMode(LED_PIN, OUTPUT);
+
   Serial.begin(115200);
   SPI.begin();
   
   pinMode(chipSelectPin, OUTPUT);
   digitalWrite(HIGH, chipSelectPin);
+  Serial.println("init new lines");
+  writeRegister(0x1E, BIT12 | BIT13);
+  res = readRegister(0x1E, 3);
+  Serial.println(res);
 }
  
+// the loop function runs over and over again forever
 void loop() {
-  
+  if (res == (BIT12 | BIT13)){
+    digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+    delay(1000);              // wait for a second
+    digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
+    delay(1000);              // wait for a second    
+  }
 }
