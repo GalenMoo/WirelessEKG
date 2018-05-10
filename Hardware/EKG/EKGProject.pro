@@ -1,10 +1,6 @@
-update=Wednesday, May 02, 2018 'PMt' 03:23:31 PM
+update=Wednesday, May 02, 2018 'PMt' 06:08:35 PM
 version=1
-last_client=eeschema
-[general]
-version=1
-RootSch=
-BoardNm=
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -61,3 +57,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/ryanblaalid/SeniorProject/CustomLib/MAXIM
+[general]
+version=1
