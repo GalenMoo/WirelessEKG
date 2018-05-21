@@ -1,14 +1,14 @@
 /*
 * @Author: Galen Wu and Ryan Blaalid
 * @Date:   2018-04-27 21:49:09
-* @Last Modified time: 2018-04-27 22:18:48
+* @Last Modified time: 2018-05-20 16:04:28
 *
 * Description:
 * Helper functions to init, read, and write
 * to the MAX30003
 */
 
-#include <arduino.h>
+#include <Arduino.h>
 #include <SPI.h>
 #include "MAX30003.h"
 

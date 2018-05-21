@@ -3,6 +3,10 @@
 
 #include <arduino.h>
 
+#define FACTORYRESET_ENABLE         1
+#define MINIMUM_FIRMWARE_VERSION    "0.6.6"
+#define MODE_LED_BEHAVIOUR          "MODE"
+
 #define SERIAL_BAUD_RATE    115200
 
 #define UPPER_BYTE_MASK   0x00FF0000
@@ -18,7 +22,9 @@
 
 #define WREG    0x00
 #define RREG    0x01
+
 #define MAX30003_CS_PIN   9
+#define EINT_PIN          10
 
 /* MAX30003 Registers Addresses */
 #define   NO_OP           0x00
