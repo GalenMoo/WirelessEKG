@@ -1,4 +1,4 @@
-update=Wednesday, May 02, 2018 'PMt' 06:08:35 PM
+update=Wednesday, May 16, 2018 'PMt' 04:25:33 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName29=valves
 LibName30=/Users/ryanblaalid/SeniorProject/CustomLib/MAXIM
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
