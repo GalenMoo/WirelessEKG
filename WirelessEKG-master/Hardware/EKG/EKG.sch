@@ -1,0 +1,509 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MAXIM
+LIBS:EKGProject-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MAX30003 U2
+U 1 1 5AE78CFC
+P 5800 3850
+AR Path="/5AE78932/5AE78CFC" Ref="U2"  Part="1" 
+AR Path="/5AEA43E2/5AE78CFC" Ref="U3"  Part="1" 
+AR Path="/5AEA8503/5AE78CFC" Ref="U4"  Part="1" 
+F 0 "U4" H 6800 2900 60  0000 C CNN
+F 1 "MAX30003" H 6800 3000 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm" H 5800 3850 60  0001 C CNN
+F 3 "" H 5800 3850 60  0001 C CNN
+	1    5800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C11
+U 1 1 5AE78D03
+P 3950 3700
+AR Path="/5AE78932/5AE78D03" Ref="C11"  Part="1" 
+AR Path="/5AEA43E2/5AE78D03" Ref="C20"  Part="1" 
+AR Path="/5AEA8503/5AE78D03" Ref="C29"  Part="1" 
+F 0 "C29" H 3960 3770 50  0000 L CNN
+F 1 "10uF" H 3960 3620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3950 3700 50  0001 C CNN
+F 3 "" H 3950 3700 50  0001 C CNN
+	1    3950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C12
+U 1 1 5AE78D0A
+P 4350 3800
+AR Path="/5AE78932/5AE78D0A" Ref="C12"  Part="1" 
+AR Path="/5AEA43E2/5AE78D0A" Ref="C21"  Part="1" 
+AR Path="/5AEA8503/5AE78D0A" Ref="C30"  Part="1" 
+F 0 "C30" H 4360 3870 50  0000 L CNN
+F 1 "1uF" H 4360 3720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4350 3800 50  0001 C CNN
+F 3 "" H 4350 3800 50  0001 C CNN
+	1    4350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C13
+U 1 1 5AE78D11
+P 4700 3900
+AR Path="/5AE78932/5AE78D11" Ref="C13"  Part="1" 
+AR Path="/5AEA43E2/5AE78D11" Ref="C22"  Part="1" 
+AR Path="/5AEA8503/5AE78D11" Ref="C31"  Part="1" 
+F 0 "C31" H 4710 3970 50  0000 L CNN
+F 1 "10uF" H 4710 3820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4700 3900 50  0001 C CNN
+F 3 "" H 4700 3900 50  0001 C CNN
+	1    4700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C14
+U 1 1 5AE78D41
+P 7450 4300
+AR Path="/5AE78932/5AE78D41" Ref="C14"  Part="1" 
+AR Path="/5AEA43E2/5AE78D41" Ref="C23"  Part="1" 
+AR Path="/5AEA8503/5AE78D41" Ref="C32"  Part="1" 
+F 0 "C32" H 7460 4370 50  0000 L CNN
+F 1 "1000pF" H 7460 4220 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7450 4300 50  0001 C CNN
+F 3 "" H 7450 4300 50  0001 C CNN
+	1    7450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR23
+U 1 1 5AE78D48
+P 7450 4500
+AR Path="/5AE78932/5AE78D48" Ref="#PWR23"  Part="1" 
+AR Path="/5AEA43E2/5AE78D48" Ref="#PWR33"  Part="1" 
+AR Path="/5AEA8503/5AE78D48" Ref="#PWR43"  Part="1" 
+F 0 "#PWR43" H 7450 4250 50  0001 C CNN
+F 1 "Earth" H 7450 4350 50  0001 C CNN
+F 2 "" H 7450 4500 50  0001 C CNN
+F 3 "" H 7450 4500 50  0001 C CNN
+	1    7450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C7
+U 1 1 5AE78D55
+P 5150 2400
+AR Path="/5AE78932/5AE78D55" Ref="C7"  Part="1" 
+AR Path="/5AEA43E2/5AE78D55" Ref="C16"  Part="1" 
+AR Path="/5AEA8503/5AE78D55" Ref="C25"  Part="1" 
+F 0 "C25" H 5160 2470 50  0000 L CNN
+F 1 "1uF" H 5160 2320 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5150 2400 50  0001 C CNN
+F 3 "" H 5150 2400 50  0001 C CNN
+	1    5150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C9
+U 1 1 5AE78D5C
+P 6500 2400
+AR Path="/5AE78932/5AE78D5C" Ref="C9"  Part="1" 
+AR Path="/5AEA43E2/5AE78D5C" Ref="C18"  Part="1" 
+AR Path="/5AEA8503/5AE78D5C" Ref="C27"  Part="1" 
+F 0 "C27" H 6510 2470 50  0000 L CNN
+F 1 "10uF" H 6510 2320 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6500 2400 50  0001 C CNN
+F 3 "" H 6500 2400 50  0001 C CNN
+	1    6500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C6
+U 1 1 5AE78D63
+P 4800 2400
+AR Path="/5AE78932/5AE78D63" Ref="C6"  Part="1" 
+AR Path="/5AEA43E2/5AE78D63" Ref="C15"  Part="1" 
+AR Path="/5AEA8503/5AE78D63" Ref="C24"  Part="1" 
+F 0 "C24" H 4810 2470 50  0000 L CNN
+F 1 "1uF" H 4810 2320 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4800 2400 50  0001 C CNN
+F 3 "" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR19
+U 1 1 5AE78D6A
+P 5150 2600
+AR Path="/5AE78932/5AE78D6A" Ref="#PWR19"  Part="1" 
+AR Path="/5AEA43E2/5AE78D6A" Ref="#PWR29"  Part="1" 
+AR Path="/5AEA8503/5AE78D6A" Ref="#PWR39"  Part="1" 
+F 0 "#PWR39" H 5150 2350 50  0001 C CNN
+F 1 "Earth" H 5150 2450 50  0001 C CNN
+F 2 "" H 5150 2600 50  0001 C CNN
+F 3 "" H 5150 2600 50  0001 C CNN
+	1    5150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR18
+U 1 1 5AE78D70
+P 4800 2600
+AR Path="/5AE78932/5AE78D70" Ref="#PWR18"  Part="1" 
+AR Path="/5AEA43E2/5AE78D70" Ref="#PWR28"  Part="1" 
+AR Path="/5AEA8503/5AE78D70" Ref="#PWR38"  Part="1" 
+F 0 "#PWR38" H 4800 2350 50  0001 C CNN
+F 1 "Earth" H 4800 2450 50  0001 C CNN
+F 2 "" H 4800 2600 50  0001 C CNN
+F 3 "" H 4800 2600 50  0001 C CNN
+	1    4800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR21
+U 1 1 5AE78D76
+P 6500 2600
+AR Path="/5AE78932/5AE78D76" Ref="#PWR21"  Part="1" 
+AR Path="/5AEA43E2/5AE78D76" Ref="#PWR31"  Part="1" 
+AR Path="/5AEA8503/5AE78D76" Ref="#PWR41"  Part="1" 
+F 0 "#PWR41" H 6500 2350 50  0001 C CNN
+F 1 "Earth" H 6500 2450 50  0001 C CNN
+F 2 "" H 6500 2600 50  0001 C CNN
+F 3 "" H 6500 2600 50  0001 C CNN
+	1    6500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V8 #PWR15
+U 1 1 5AE78D7C
+P 4800 2050
+AR Path="/5AE78932/5AE78D7C" Ref="#PWR15"  Part="1" 
+AR Path="/5AEA43E2/5AE78D7C" Ref="#PWR25"  Part="1" 
+AR Path="/5AEA8503/5AE78D7C" Ref="#PWR35"  Part="1" 
+F 0 "#PWR35" H 4800 1900 50  0001 C CNN
+F 1 "+1V8" H 4800 2190 50  0000 C CNN
+F 2 "" H 4800 2050 50  0001 C CNN
+F 3 "" H 4800 2050 50  0001 C CNN
+	1    4800 2050
+	1    0    0    -1  
+$EndComp
+Text Label 7050 4150 2    60   ~ 0
+PLL
+$Comp
+L C_Small C10
+U 1 1 5AE78D8B
+P 4650 3200
+AR Path="/5AE78932/5AE78D8B" Ref="C10"  Part="1" 
+AR Path="/5AEA43E2/5AE78D8B" Ref="C19"  Part="1" 
+AR Path="/5AEA8503/5AE78D8B" Ref="C28"  Part="1" 
+F 0 "C28" H 4450 3250 50  0000 L CNN
+F 1 "1uF" H 4400 3150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4650 3200 50  0001 C CNN
+F 3 "" H 4650 3200 50  0001 C CNN
+	1    4650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R13
+U 1 1 5AE78D92
+P 3550 3550
+AR Path="/5AE78932/5AE78D92" Ref="R13"  Part="1" 
+AR Path="/5AEA43E2/5AE78D92" Ref="R14"  Part="1" 
+AR Path="/5AEA8503/5AE78D92" Ref="R15"  Part="1" 
+F 0 "R15" V 3650 3500 50  0000 L CNN
+F 1 "499k" V 3450 3450 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3550 3550 50  0001 C CNN
+F 3 "" H 3550 3550 50  0001 C CNN
+	1    3550 3550
+	0    -1   -1   0   
+$EndComp
+Text Label 4700 3750 0    60   ~ 0
+VREF
+Text Label 4350 3650 0    60   ~ 0
+VBG
+Text Label 3950 3550 0    60   ~ 0
+VCM_R
+Text Label 4650 3100 0    60   ~ 0
+CAPP
+Text Label 4650 3300 0    60   ~ 0
+CAPN
+$Comp
+L C_Small C8
+U 1 1 5AE78DA1
+P 5400 2400
+AR Path="/5AE78932/5AE78DA1" Ref="C8"  Part="1" 
+AR Path="/5AEA43E2/5AE78DA1" Ref="C17"  Part="1" 
+AR Path="/5AEA8503/5AE78DA1" Ref="C26"  Part="1" 
+F 0 "C26" H 5410 2470 50  0000 L CNN
+F 1 "0.1uF" H 5410 2320 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5400 2400 50  0001 C CNN
+F 3 "" H 5400 2400 50  0001 C CNN
+	1    5400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR20
+U 1 1 5AE78DA8
+P 5400 2600
+AR Path="/5AE78932/5AE78DA8" Ref="#PWR20"  Part="1" 
+AR Path="/5AEA43E2/5AE78DA8" Ref="#PWR30"  Part="1" 
+AR Path="/5AEA8503/5AE78DA8" Ref="#PWR40"  Part="1" 
+F 0 "#PWR40" H 5400 2350 50  0001 C CNN
+F 1 "Earth" H 5400 2450 50  0001 C CNN
+F 2 "" H 5400 2600 50  0001 C CNN
+F 3 "" H 5400 2600 50  0001 C CNN
+	1    5400 2600
+	1    0    0    -1  
+$EndComp
+Text Notes 4650 2850 0    60   ~ 0
+DVDD
+Text Notes 5150 2850 0    60   ~ 0
+AVDD
+$Comp
+L +1V8 #PWR16
+U 1 1 5AE78DB7
+P 4800 2050
+AR Path="/5AE78932/5AE78DB7" Ref="#PWR16"  Part="1" 
+AR Path="/5AEA43E2/5AE78DB7" Ref="#PWR26"  Part="1" 
+AR Path="/5AEA8503/5AE78DB7" Ref="#PWR36"  Part="1" 
+F 0 "#PWR36" H 4800 1900 50  0001 C CNN
+F 1 "+1V8" H 4800 2190 50  0000 C CNN
+F 2 "" H 4800 2050 50  0001 C CNN
+F 3 "" H 4800 2050 50  0001 C CNN
+	1    4800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR24
+U 1 1 5AE78DBD
+P 5800 5200
+AR Path="/5AE78932/5AE78DBD" Ref="#PWR24"  Part="1" 
+AR Path="/5AEA43E2/5AE78DBD" Ref="#PWR34"  Part="1" 
+AR Path="/5AEA8503/5AE78DBD" Ref="#PWR44"  Part="1" 
+F 0 "#PWR44" H 5800 4950 50  0001 C CNN
+F 1 "Earth" H 5800 5050 50  0001 C CNN
+F 2 "" H 5800 5200 50  0001 C CNN
+F 3 "" H 5800 5200 50  0001 C CNN
+	1    5800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR17
+U 1 1 5AE79031
+P 6500 2050
+AR Path="/5AE78932/5AE79031" Ref="#PWR17"  Part="1" 
+AR Path="/5AEA43E2/5AE79031" Ref="#PWR27"  Part="1" 
+AR Path="/5AEA8503/5AE79031" Ref="#PWR37"  Part="1" 
+F 0 "#PWR37" H 6500 1900 50  0001 C CNN
+F 1 "+3V3" H 6500 2190 50  0000 C CNN
+F 2 "" H 6500 2050 50  0001 C CNN
+F 3 "" H 6500 2050 50  0001 C CNN
+	1    6500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR22
+U 1 1 5AE7BA34
+P 4350 4150
+AR Path="/5AE78932/5AE7BA34" Ref="#PWR22"  Part="1" 
+AR Path="/5AEA43E2/5AE7BA34" Ref="#PWR32"  Part="1" 
+AR Path="/5AEA8503/5AE7BA34" Ref="#PWR42"  Part="1" 
+F 0 "#PWR42" H 4350 3900 50  0001 C CNN
+F 1 "Earth" H 4350 4000 50  0001 C CNN
+F 2 "" H 4350 4150 50  0001 C CNN
+F 3 "" H 4350 4150 50  0001 C CNN
+	1    4350 4150
+	1    0    0    -1  
+$EndComp
+Text HLabel 4700 4150 0    60   Input ~ 0
+ECGP
+Text HLabel 4700 4450 0    60   Input ~ 0
+ECGN
+Text HLabel 3100 3550 0    60   Input ~ 0
+VCM
+Wire Wire Line
+	4350 3650 5000 3650
+Wire Wire Line
+	4350 3700 4350 3650
+Wire Wire Line
+	3650 3550 5000 3550
+Wire Wire Line
+	3950 3550 3950 3600
+Wire Wire Line
+	3950 4050 3950 3800
+Wire Wire Line
+	4700 3750 5000 3750
+Connection ~ 4350 4050
+Wire Wire Line
+	4350 3900 4350 4150
+Wire Wire Line
+	3950 4050 4700 4050
+Wire Wire Line
+	6700 4150 7450 4150
+Wire Wire Line
+	6700 4450 7050 4450
+Wire Wire Line
+	6700 3700 7050 3700
+Wire Wire Line
+	6700 3600 7050 3600
+Wire Wire Line
+	6700 3400 7050 3400
+Wire Wire Line
+	6700 3300 7050 3300
+Wire Wire Line
+	6700 3200 7050 3200
+Wire Wire Line
+	5850 2100 5850 2700
+Wire Wire Line
+	4800 2050 4800 2300
+Wire Wire Line
+	5150 2100 5150 2300
+Wire Wire Line
+	4800 2100 5850 2100
+Wire Wire Line
+	6150 2100 6150 2700
+Wire Wire Line
+	4800 2500 4800 2600
+Wire Wire Line
+	5150 2500 5150 2600
+Connection ~ 4800 2100
+Connection ~ 5150 2100
+Wire Wire Line
+	5550 2700 5550 2650
+Wire Wire Line
+	5550 2650 5850 2650
+Connection ~ 5850 2650
+Wire Wire Line
+	6700 3100 7050 3100
+Wire Wire Line
+	5000 3300 4650 3300
+Wire Wire Line
+	4650 3100 5000 3100
+Wire Wire Line
+	5300 4950 5300 5050
+Wire Wire Line
+	5300 5050 6400 5050
+Wire Wire Line
+	6400 5050 6400 4950
+Wire Wire Line
+	5400 4950 5400 5050
+Connection ~ 5400 5050
+Wire Wire Line
+	5500 4950 5500 5050
+Connection ~ 5500 5050
+Wire Wire Line
+	5600 4950 5600 5050
+Connection ~ 5600 5050
+Wire Wire Line
+	5700 4950 5700 5050
+Connection ~ 5700 5050
+Wire Wire Line
+	5800 4950 5800 5200
+Connection ~ 5800 5050
+Wire Wire Line
+	5900 4950 5900 5050
+Connection ~ 5900 5050
+Wire Wire Line
+	6000 4950 6000 5050
+Connection ~ 6000 5050
+Wire Wire Line
+	6100 4950 6100 5050
+Connection ~ 6100 5050
+Wire Wire Line
+	6200 4950 6200 5050
+Connection ~ 6200 5050
+Connection ~ 3950 3550
+Wire Wire Line
+	3450 3550 3100 3550
+Wire Wire Line
+	5400 2500 5400 2600
+Wire Wire Line
+	5400 2300 5400 2100
+Connection ~ 5400 2100
+Wire Wire Line
+	5400 2100 5150 2100
+Wire Notes Line
+	4650 2700 4650 2750
+Wire Notes Line
+	4650 2750 4900 2750
+Wire Notes Line
+	4900 2750 4900 2700
+Wire Notes Line
+	5050 2700 5050 2750
+Wire Notes Line
+	5050 2750 5450 2750
+Wire Notes Line
+	5450 2750 5450 2700
+Wire Wire Line
+	6500 2600 6500 2500
+Wire Wire Line
+	6150 2100 6500 2100
+Wire Wire Line
+	6500 2050 6500 2300
+Wire Wire Line
+	4700 3750 4700 3800
+Wire Wire Line
+	4700 4050 4700 4000
+Connection ~ 6500 2100
+Wire Wire Line
+	5000 4150 4700 4150
+Wire Wire Line
+	4700 4450 5000 4450
+Text HLabel 7050 4450 2    60   Input ~ 0
+FCLK
+Wire Wire Line
+	7450 4150 7450 4200
+Wire Wire Line
+	7450 4400 7450 4500
+Text HLabel 7050 3100 2    60   Input ~ 0
+CS
+Text HLabel 7050 3200 2    60   Input ~ 0
+MOSI
+Text HLabel 7050 3300 2    60   Input ~ 0
+MISO
+Text HLabel 7050 3400 2    60   Input ~ 0
+SCLK
+Text HLabel 7050 3600 2    60   Input ~ 0
+INTB
+Text HLabel 7050 3700 2    60   Input ~ 0
+INT2B
+$EndSCHEMATC
